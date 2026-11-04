@@ -1,0 +1,5 @@
+record_id,source_id,source_locator,account_id,counterparty_id,occurred_at,direction,amount,currency,summary
+SYN-R1,SYN-F1,Sheet1!2,SYN-CORP-A,SYN-CARD-X,2025-01-05T10:00:00,out,800.00,CNY,系统充值
+SYN-R2,SYN-F1,Sheet1!3,SYN-CORP-A,SYN-CARD-X,2025-01-06T10:00:00,out,1500.00,CNY,系统充值
+SYN-R3,SYN-F1,Sheet1!4,SYN-CORP-A,SYN-CARD-X,2025-01-07T10:00:00,out,900.00,CNY,系统充值
+SYN-R4,SYN-F1,Sheet1!5,SYN-CORP-A,SYN-CARD-X,2025-01-08T10:00:00,out,200.00,CNY,办公预付款

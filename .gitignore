@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+private/
+case-data/
+outputs/
+*.doc
+*.docx
+*.pdf
+*.xls
+*.xlsx
+*.ipynb
+*.zip
+*.skill
