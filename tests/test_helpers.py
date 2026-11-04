@@ -11,7 +11,7 @@ import tempfile
 import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
-SCRIPTS = ROOT / "skills/police-fund-forensics/scripts"
+SCRIPTS = ROOT / "skills/jinxi-investigator/scripts"
 
 
 def load(name):

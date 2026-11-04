@@ -25,6 +25,6 @@
 
 ## 持续检查
 
-仓库包含Ubuntu与Windows runner、Python 3.11的相同合成检查；实际云端执行结果以 [GitHub Actions](https://github.com/Eysn0130/police-fund-forensics-skill/actions) 为准。此类runner检查只验证辅助脚本，不等于公安单位设备、软件标准符合性、机构程序或正式出具验收。
+仓库包含Ubuntu与Windows runner、Python 3.11的相同合成检查；实际云端执行结果以 [GitHub Actions](https://github.com/Eysn0130/jinxi-investigator/actions) 为准。此类runner检查只验证辅助脚本，不等于公安单位设备、软件标准符合性、机构程序或正式出具验收。
 
 公开标准仅完成链接及目录信息核验，未取得并逐条确认全部正式标准全文。原材料、真实报告及研究记录未随公共包发布。

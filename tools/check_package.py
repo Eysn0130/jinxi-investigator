@@ -6,7 +6,7 @@ import sys
 from urllib.parse import unquote
 
 ROOT = Path(__file__).resolve().parents[1]
-SKILL = ROOT / "skills/police-fund-forensics"
+SKILL = ROOT / "skills/jinxi-investigator"
 ALLOWED = {".md", ".py", ".csv", ".yaml", ".yml"}
 IGNORED = {".git", "__pycache__"}
 PATTERNS = [re.compile(r"/(?:Users|home)/"), re.compile(r"thread:/{2}"),
@@ -41,9 +41,9 @@ def main():
                 if (dest != ROOT and ROOT not in dest.parents) or not dest.exists():
                     errors.append(str(rel) + ": unresolved local link " + target)
     source = (SKILL / "SKILL.md").read_text(encoding="utf-8")
-    if not source.startswith("---\nname: police-fund-forensics\ndescription: ") or "\n---\n" not in source[4:]:
+    if not source.startswith("---\nname: jinxi-investigator\ndescription: ") or "\n---\n" not in source[4:]:
         errors.append("invalid skill frontmatter")
-    for required in ["README.md", "LICENSE", "PUBLICATION.md", "skills/police-fund-forensics/agents/openai.yaml"]:
+    for required in ["README.md", "LICENSE", "PUBLICATION.md", "skills/jinxi-investigator/agents/openai.yaml"]:
         if not (ROOT / required).is_file():
             errors.append("missing " + required)
     for error in errors:
